@@ -4,7 +4,7 @@
 		module="quickcheck-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20190131122546"
+		publication="20190131170002"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
