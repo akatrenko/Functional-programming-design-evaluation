@@ -1,6 +1,5 @@
 package calculator
 
-
 object TweetLength {
   final val MaxTweetLength = 140
 
