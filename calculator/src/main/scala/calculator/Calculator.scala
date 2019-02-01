@@ -18,7 +18,7 @@ object Calculator {
   def computeValues(
                      namedExpressions: Map[String, Signal[Expr]]): Map[String, Signal[Double]] = {
     namedExpressions.map {
-      case (key, value) => key -> Signal(eval(value(), namedExpressions - key))
+      case (key, value) => key -> Var(eval(value(), namedExpressions - key))
     }
   }
 
